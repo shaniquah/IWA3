@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Challenge2</title>
+        <!-- retyped the <script> tags to source the files in the folder
+            made module a type for each file, scripts.js wouldn't run imports outside module hence it couldn't be left as nomodule
+            deferred all .js files to run in parallel with HTML and await it to parse and load first before loading -->
+        <script src="nwabisa.js" type="module" defer></script>
+        <script src="johannes.js" type="module" defer></script>
+        <script src="alex.js" type="module" defer></script>
+        <script src="scripts.js" type="module" defer></script> 
+
+    </head>
+    <body>
+        
+        <h1>Our Team</h1>
+
+            <ul>
+                <li id="nwabisa">Loading...</li>
+                <li id="johannes">Loading...</li>
+                <li id="alex">Loading...</li>
+            </ul>
+
+    </body>
+
+</html>
